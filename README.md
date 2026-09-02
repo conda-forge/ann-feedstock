@@ -14,7 +14,7 @@ Current build status
 
 
 <table>
-    
+
   <tr>
     <td>Azure</td>
     <td>
@@ -184,4 +184,4 @@ Feedstock Maintainers
 =====================
 
 * [@langmm](https://github.com/langmm/)
-
+* [@oursland](https://github.com/oursland/)
