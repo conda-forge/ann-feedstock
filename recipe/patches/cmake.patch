@@ -3,10 +3,11 @@ new file mode 100644
 index 0000000..70dbf53
 --- /dev/null
 +++ b/CMakeLists.txt
-@@ -0,0 +1,16 @@
-+cmake_minimum_required(VERSION 2.8)
+@@ -0,0 +1,17 @@
++cmake_minimum_required(VERSION 3.5)
 +set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
 +project(ann)
++set(CMAKE_CXX_STANDARD 14)
 +if (MSVC)
 +    add_definitions(-DANN_NO_RANDOM)
 +ENDIF()
